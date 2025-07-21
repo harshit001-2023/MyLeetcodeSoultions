@@ -1,3 +1,4 @@
+//Problem : URL=https://leetcode.com/problems/two-sum
 //1. Two Sum
 //Solved
 //Easy
@@ -15,10 +16,14 @@
 
 
 public class TwoSum {
-    public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {//takes two parameter 1 is array and 2 is integer
+        //Iterating over the array till ir length
         for (int i = 0; i < nums.length; i++) {
+            //Again iterating but staring from position os i form first for loop
             for (int j = i + 1; j < nums.length; j++) {
+                //Checking whether the sum of two elements are equal to target or not by iterating over the array
                 if (nums[i] + nums[j] == target) {
+                    //if equal then return a new array with both elements Indexes
                     return new int[]{i, j};
                 }
             }
