@@ -1,5 +1,4 @@
 //Problem: URL=https://leetcode.com/problems/sqrtx/
-
 //69. Sqrt(x)
 //Solved
 //Easy
