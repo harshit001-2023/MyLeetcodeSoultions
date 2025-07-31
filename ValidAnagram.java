@@ -49,6 +49,7 @@ public class ValidAnagram {
         return true;
     }
 
+    //Is anagram method applies logic for anagram
     public boolean isAnagram2(String s, String t) {
         if (s.length() != t.length())
             return false;
