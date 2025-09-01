@@ -34,6 +34,46 @@ public class ArraylistProblems {
         return largestNumber;
     }
 
+    public static ArrayList<Integer> filterEvenList(ArrayList<Integer> originalList){
+        //Handling the edge case original list should not be empty
+        if(originalList.isEmpty()){
+            throw new RuntimeException("List is Empty, please fill the valid elements");
+        }
+        //Creating an empty array list to store the even numbers
+        ArrayList<Integer> evenList = new ArrayList<>();
+
+        //Iterating over each element and checking whether it is even or not
+        for(int num : originalList){
+            if(num%2==0){
+                //adding even numbers to the empty list
+                evenList.add(num);
+            }
+        }
+
+        // Returning the even element list
+        return evenList;
+    }
+
+    public static int evenElementSum(ArrayList<Integer> list){
+        //Edge case, list should not be empty
+        if(list.isEmpty()){
+            throw new RuntimeException("Empty List, no further move");
+        }
+
+        //A variable with first element of list
+        int evenSum = list.get(0);
+
+        //Iterating each number and checking whether even or not and if even summing them
+        for(int num: list){
+            if(num%2==0){
+                evenSum += num;
+            }
+        }
+
+        //Returning the variable
+        return evenSum;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
@@ -50,10 +90,14 @@ public class ArraylistProblems {
 
         // Call the method and store the result
 //        int total = summingUp(list);
-        int largest = findLargestNumber(list);
+//        int largest = findLargestNumber(list);
+//        ArrayList<Integer>  evenNumbers = filterEvenList(list);
+        int evenSum = evenElementSum(list);
 
         // Print the result here
 //        System.out.println("The sum of the list is: " + total);
-        System.out.println("Largest number is: "+largest);
+//        System.out.println("Largest number is: "+largest);
+//        System.out.println("Even elements are "+evenNumbers);
+        System.out.println("Sum of even element in Array List is "+evenSum);
     }
 }
