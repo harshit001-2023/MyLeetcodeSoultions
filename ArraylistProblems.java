@@ -61,7 +61,7 @@ public class ArraylistProblems {
         }
 
         //A variable with first element of list
-        int evenSum = list.get(0);
+        int evenSum = 0;
 
         //Iterating each number and checking whether even or not and if even summing them
         for(int num: list){
