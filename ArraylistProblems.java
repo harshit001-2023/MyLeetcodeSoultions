@@ -20,7 +20,7 @@ public class ArraylistProblems {
         }
 
         // Step 2: Initialize with the first element (your idea!)
-        int largestNumber = numbers.get(0);
+        int largestNumber = numbers.getFirst();// .get(0) => getFirst() method
 
         // Step 3: Loop through all numbers
         for (int i : numbers) {
@@ -74,6 +74,20 @@ public class ArraylistProblems {
         return evenSum;
     }
 
+    public static ArrayList<Integer> removeDuplicateList(ArrayList<Integer> originalList){
+        System.out.println("The original list is "+originalList);
+        ArrayList<Integer> list = new ArrayList<>();
+
+        for(int num: originalList){
+            if(!(list.contains(num))){
+                list.add(num);
+            }
+        }
+
+        System.out.println("The new filtered list is "+list);
+        return list;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
@@ -92,12 +106,13 @@ public class ArraylistProblems {
 //        int total = summingUp(list);
 //        int largest = findLargestNumber(list);
 //        ArrayList<Integer>  evenNumbers = filterEvenList(list);
-        int evenSum = evenElementSum(list);
+//        int evenSum = evenElementSum(list);
+        removeDuplicateList(list);
 
         // Print the result here
 //        System.out.println("The sum of the list is: " + total);
 //        System.out.println("Largest number is: "+largest);
 //        System.out.println("Even elements are "+evenNumbers);
-        System.out.println("Sum of even element in Array List is "+evenSum);
+//        System.out.println("Sum of even element in Array List is "+evenSum);
     }
 }
