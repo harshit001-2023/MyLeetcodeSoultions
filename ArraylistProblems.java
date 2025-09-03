@@ -74,7 +74,7 @@ public class ArraylistProblems {
         return evenSum;
     }
 
-    public static ArrayList<Integer> removeDuplicateList(ArrayList<Integer> originalList){
+    public static void removeDuplicateList(ArrayList<Integer> originalList){
         System.out.println("The original list is "+originalList);
         ArrayList<Integer> list = new ArrayList<>();
 
@@ -85,7 +85,6 @@ public class ArraylistProblems {
         }
 
         System.out.println("The new filtered list is "+list);
-        return list;
     }
 
     public static void main(String[] args) {
