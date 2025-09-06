@@ -17,13 +17,22 @@ Each file corresponds to a specific LeetCode problem. Solutions are organized by
 
 ```
 MyLeetcodeSoultions/
-├── PlusOne.java
-├── SqrtOfx.java
-├── TwoSum.java
-├── ValidAnagram.java
-├── ValidPalindrome.java
-├── Solution.java
-└── ...
+Easy/
+|  ├── PlusOne.java
+|  ├── SqrtOfx.java
+|  ├── TwoSum.java
+|  ├── ValidAnagram.java
+|  ├── ValidPalindrome.java
+|  ├── Solution.java
+|  └── ...
+|
+|Medum/
+|  ├── TwoSumII.java
+|  └── ...
+|
+|Hard/
+|  ├── 
+|  └── ...
 ```
 
 ## 📝 How to Track Progress
