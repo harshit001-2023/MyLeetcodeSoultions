@@ -24,6 +24,7 @@ Easy/
 |  ├── ValidAnagram.java
 |  ├── ValidPalindrome.java
 |  ├── Solution.java
+|  ├── ValidParentHeses.java
 |  └── ...
 |
 |Medum/
