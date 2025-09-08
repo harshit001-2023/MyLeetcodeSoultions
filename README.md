@@ -25,6 +25,7 @@ Easy/
 |  ├── ValidPalindrome.java
 |  ├── Solution.java
 |  ├── ValidParentHeses.java
+|  ├── NextGreaterElement1.java
 |  └── ...
 |
 |Medum/
