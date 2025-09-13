@@ -5,3 +5,5 @@ Starting my consistency again from tomorrow (28/8/25).
     for eg. We have given an Input Array as [1, 2, 3, 4, 5, 9], and target = 10
     Sum of two characters which makes are equal to Target that are [1, 9]
     now return Index of them i.e final output = [1,6]
+
+2) Solved DailyTemperature leetcode solution using bruteforce approach
