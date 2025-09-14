@@ -30,6 +30,7 @@ Easy/
 |
 |Medum/
 |  ├── TwoSumII.java
+|  ├── DailyTemperatures.java
 |  └── ...
 |
 |Hard/
