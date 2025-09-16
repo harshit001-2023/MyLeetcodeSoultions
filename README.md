@@ -8,8 +8,8 @@ Uploading my leetcode journey.
 
 This repository documents my ongoing journey solving LeetCode problems. Every time I add a new solution, this README will be updated to reflect my current progress.
 
-- **Total Solutions:** 6 <!-- Update this count as you add more -->
-- **Last Updated:** 2025-07-31 <!-- Update this date as needed -->
+- **Total Solutions:** 10 <!-- Update this count as you add more -->
+- **Last Updated:** 2025-09-12 <!-- Update this date as needed -->
 
 ## 📁 Structure
 
@@ -56,7 +56,7 @@ _Update date and difficulty as you add more!_
 
 ## 🏆 Achievements
 
-- Solved 6 problems as of 2025-08-20
+- Solved 10 problems as of 2025-09-12
 - [Optional] Add badges, streak trackers, or graphs here
 
 ## 💡 About
