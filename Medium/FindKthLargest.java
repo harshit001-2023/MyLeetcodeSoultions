@@ -23,6 +23,7 @@
 package Medium;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 public class FindKthLargest {
     public static int findKthLargest(int nums[], int k){
@@ -33,9 +34,23 @@ public class FindKthLargest {
      return nums[nums.length - k];
     }
 
+    public static int findKthLargest1(int[] nums, int k) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+        for(int i : nums){
+            pq.add(i);
+            if(pq.size() > k){
+                pq.poll();
+            }
+        }
+
+        return pq.peek();
+    }
+
     public static void main(String[] arg){
         int[] nums = {1,4,8,7,5,1,4,3,4,9,6};
         int k = 9;
         System.out.println(findKthLargest(nums, k));
+        System.out.println(findKthLargest1(nums, k));
     }
 }

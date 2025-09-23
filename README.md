@@ -31,7 +31,7 @@ Easy/
 |Medum/
 |  ├── TwoSumII.java
 |  ├── DailyTemperatures.java
-|  ├── FindKthLargest
+|  ├── FindKthLargest (Sol1: Using Array, Sol2: Using Priority Queue)
 |  └── ...
 |
 |Hard/
