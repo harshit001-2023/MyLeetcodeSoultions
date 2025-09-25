@@ -26,6 +26,7 @@ Easy/
 |  ├── Solution.java
 |  ├── ValidParentHeses.java
 |  ├── NextGreaterElement1.java
+|  ├── BinarySearch.java
 |  └── ...
 |
 |Medum/

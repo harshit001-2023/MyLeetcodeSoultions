@@ -7,3 +7,4 @@
 5. SqrtOfx
 6. PlusOne
 7. NextGreaterElement1
+8. BinarySearch
