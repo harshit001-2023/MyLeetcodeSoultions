@@ -13,6 +13,24 @@
 //Input: nums = [2,7,11,15], target = 9
 //Output: [0,1]
 //Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+/**
+ * Intuition/Approach:
+ * This problem asks for two numbers that add up to a target. A HashMap is the
+ * perfect tool for this. We can iterate through the array once. For each number,
+ * we calculate the 'complement' (target - current_number). Then, we check if
+ * this complement already exists as a key in our HashMap.
+ * - If it exists, we have found our pair. We return the current index and the
+ * index stored in the map.
+ * - If it doesn't exist, we put the current number and its index into the map
+ * and continue to the next number.
+ *
+ * Time Complexity: O(n)
+ * We iterate through the array of n elements only once. Each lookup and insert
+ * in the HashMap takes constant time on average, O(1).
+ *
+ * Space Complexity: O(n)
+ * In the worst case, we might have to store all n elements in the HashMap.
+ */
 
 
 public class TwoSum {
