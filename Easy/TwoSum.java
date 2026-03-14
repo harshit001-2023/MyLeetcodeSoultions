@@ -1,4 +1,4 @@
-//Problem : URL=https://leetcode.com/problems/two-sum
+package Easy;//Problem : URL=https://leetcode.com/problems/two-sum
 //1. Two Sum
 //Solved
 //Easy

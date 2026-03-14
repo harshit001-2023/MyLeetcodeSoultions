@@ -1,4 +1,4 @@
-//Problem : URL=https://leetcode.com/problems/valid-anagram/
+package Easy;//Problem : URL=https://leetcode.com/problems/valid-anagram/
 //242. Valid Anagram
 //Solved
 //Easy
