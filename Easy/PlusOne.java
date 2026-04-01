@@ -1,4 +1,5 @@
-package Easy;//Problem: URL=https://leetcode.com/problems/plus-one/
+package Easy;
+//Problem: URL=https://leetcode.com/problems/plus-one/
 
 //66. Plus One
 //Solved
