@@ -28,6 +28,7 @@ Easy/
 |  ├── NextGreaterElement1.java
 |  ├── BinarySearch.java
 |  ├── CanPlaceFlower.java
+|  ├── RemoveDuplicatesFromSortedList
 |  └── ...
 |
 |Medum/

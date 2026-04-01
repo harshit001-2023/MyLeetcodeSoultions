@@ -9,3 +9,4 @@
 7. NextGreaterElement1
 8. BinarySearch
 9. CanPlaceFlower
+10. RemoveDuplicatesFromSortedList
