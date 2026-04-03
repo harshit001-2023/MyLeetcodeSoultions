@@ -35,7 +35,7 @@ Easy/
 |  ├── TwoSumII.java
 |  ├── DailyTemperatures.java
 |  ├── FindKthLargest (Sol1: Using Array, Sol2: Using Priority Queue)
-|  ├── RemoveDuplicatesFromSortedList
+|  ├── RemoveDuplicatesFromSortedListII
 |  └── ...
 |
 |Hard/

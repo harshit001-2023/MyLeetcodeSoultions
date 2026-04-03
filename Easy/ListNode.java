@@ -1,3 +1,5 @@
+package Easy;
+
 public class ListNode {
     int val;
     ListNode head;
