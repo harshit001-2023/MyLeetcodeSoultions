@@ -3,7 +3,7 @@ package Easy;
 public class ListNode {
     int val;
     ListNode head;
-    ListNode next;
+    public ListNode next;
 
     ListNode(int x){
         this.val = x;
